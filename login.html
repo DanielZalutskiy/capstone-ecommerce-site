@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Tasty Candy | Ecommerce Website Design</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login">
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/Tasty Candy Logo.JPG" width="200px">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="Register.html">Register</a></li>
+        <li><a href="checkout.html"><img src="images/cart.png" width="30px" height="30px"></a></li>
+    </ul>
+   </nav> 
+  </div>
+    
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="" alt="" class="avatar">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" minlength="3" maxlength="20" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" minlength="3" maxlength="20"required>
+    
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
